@@ -7,7 +7,7 @@ public class driver {
 		public static void main(String[] args) 
 		{
 			int c;
-			System.out.println("Enter the method in which you want to calculate the interest:" + "1:Simple interest 2:Compound interest:   ");
+			System.out.format("%s","Enter the method in which you want to calculate the interest:" + "1:Simple interest 2:Compound interest:   ");
                         
 			Scanner s=new Scanner(System.in);
 			c=s.nextInt();
